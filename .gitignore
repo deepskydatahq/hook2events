@@ -1,0 +1,17 @@
+# FILEPATH: /workspaces/hook2events/.gitignore
+# BEGIN: abpxx6d04wxr
+.dlt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyi
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+*.sh
+# END: abpxx6d04wxr

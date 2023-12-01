@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hook2events"
+version = "0.1.0"
+description = ""
+authors = ["dsd_timodechau <95442831+deepskydata@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+fastapi = "^0.104.1"
+pydantic = "^2.5.2"
+uvicorn = "^0.24.0.post1"
+dlt = {extras = ["bigquery"], version = "^0.3.25"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
